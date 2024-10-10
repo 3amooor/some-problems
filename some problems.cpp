@@ -1,37 +1,3 @@
-/*
-File: A1_T1_20230258.cpp
-Purpose:Solve Problems number:1,4,7,10 for assignment 1 task 1
-Author:Omar tarek moustafa refaat
-ID: 20230258
-DATE:10 OCT 2024
-
-How the program works:
- Problem number 1: String captalize and removing spaces:
- This problem works with 2 function first one: is the captalize function which works on lowercase
- every word first then upper case the first word in the sentence of course with defensive programming.
- for the second function removing spaces:This function work that there is a variable set on false
- then it loops on every character and if the spaces are more than 1 it removes it.
- there are another 2 functions: one for print and one for a special case in defensive programming
- to remove first spaces
-
- problem number 2: Prime selection:
- This works with 1 function as it is the prime selection first it checks that the number the user
- entered was bigger than 2 then it loops on the number with 2 for loops 1 to verify prime number
- using Sieve of Eratosthenes algorithm and 1 to cout it:
-
- problem 3:Domino problem: The goal is to form a chain from a set of dominos, where the right side
- of one domino matches the left side of the next domino. Each domino is represented by a structure
- dominoT containing two values: leftDots and RightDots The program uses the function Formchain and
- a helper function DominoChainhelper to check if a chain can be formed.It starts with an unchosen domino and
- attempts to build a chain by recursively matching dominoes. If all dominoes are used in a valid chain, it returns true
-
-
- problem 4:Message altering to avoid censorchip:This problem involves altering a message by replacing certain words with
- alternative words, randomly chosen from a predefined list. the function loadalternativetable reads
- a file has a list of alternative words to replace. funciton replacemessage goes through the input
- and replaces the words found in alternative table with another one.
-*/
-
 
 #include <iostream>
 #include <vector>
